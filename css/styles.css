@@ -1,9 +1,14 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .genero-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
@@ -16,3 +21,16 @@ h2 {
 }
 
 
+.genero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap:30px;
+
+}
+
+img {
+  width: 300px;
+}
